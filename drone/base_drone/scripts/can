@@ -1,0 +1,10 @@
+sleep 10
+ccw 360
+sleep 10
+right 50
+sleep 10
+ccw 180
+sleep 10
+forward 150
+sleep 5
+land
