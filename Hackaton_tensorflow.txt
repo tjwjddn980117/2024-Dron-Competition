@@ -1,0 +1,14 @@
+numpy
+keras
+tensorflow
+cv2
+pandas
+matplotlib
+Keras-Applications
+keras-models
+keras-utils
+pydot
+seaborn
+plotly
+conda-forge::scikit-plot anaconda::scikit-learn
+pip install graphviz
