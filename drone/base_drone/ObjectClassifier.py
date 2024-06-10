@@ -116,6 +116,9 @@ class ObjectClassifier():
         # Change a shape of a numpy.ndarray with results to get another one with one dimension
         probs = predictions.reshape(-1)
         probs = probs[:-1]
+        
+        if len(probs) > 8:
+            probs = probs[:8]
 
         # Get an array of 8 class IDs in descending order of probability
         top_8 = np.argsort(probs)[-8:][::-1]
