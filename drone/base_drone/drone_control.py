@@ -60,7 +60,7 @@ class Ui_Dialog(object):
         self.latestDetectedLabel = ''
         self.prevFrameLabelIdx = -1
         self.CLASSIFICATION_FRAME_RECT_PERCENT = 10
-        self.CLASSIFICATION_CONF = 0.9
+        self.CLASSIFICATION_CONF = 0.9 * 100
         self.CLASSIFICATION_FRAME = 5
         self.sameDetectionFrameCount = 0
 
